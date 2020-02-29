@@ -1,10 +1,8 @@
-# Deep Learning Institute (DLI) Teaching Kit Lab/solution Repository
+# Deep Learning Institute (DLI) Learning Kit Lab/solution Repository
 
-Welcome to the DLI Teaching Kit Lab/solution repository. The kit and associated labs are produced jointly by NVIDIA and New York University (NYU).  All material is available under the [Creative Commons Attribution-NonCommercial License](http://creativecommons.org/licenses/by-nc/4.0/).
+Welcome to the DLI Learning Kit Lab/solution repository. The kit and associated labs are produced jointly by NVIDIA and New York University (NYU).  All material is available under the [Creative Commons Attribution-NonCommercial License](http://creativecommons.org/licenses/by-nc/4.0/).
 
 The labs are designed to be open-ended, multidisciplinary, one- to three-week programming and written assignments for students. Each lab contains a description, sample code, sample solutions and suggestions on how instructors can evaluate and have students submit solutions.
-
-*Note that we are currently in the 2nd release of this Teaching Kit. If you have never pulled any labs from this repo and/or are new to the DLI Teaching Kit, please pull from the "Rel2" branch. The new 2nd release labs are 2B, 3, and 4B. Labs 2 and 4 have two different versions (“A” and “B”) because they contain some overlapping concepts but use different problem/data sets. Labs 2B and 4B utilize the PyTorch frameworks. Lab 3 covers Generative Adversarial Networks. Labs 2A and 4A are the same as 1st release Labs 2 and 4. Please pull the 2nd release branch to a new location locally if you have pulled from the previous release.*
 
 ## System Requirements
 
@@ -12,9 +10,9 @@ The labs are designed to be open-ended, multidisciplinary, one- to three-week pr
 
 Thanks to the rapid development of NVIDIA GPUs, training deep neural networks is more efficient than ever in terms of both time and resource cost. Training neural networks on [NVIDIA CUDA-enabled GPUs](https://developer.nvidia.com/cuda-gpus) is a practical necessity for the Teaching Kit labs, including both convolutional networks (Lab1 and Lab2) and recurrent networks (Lab4).
 
-**Don't have access to GPUs? The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course, as well as $200 for yourself as the instructor, to provide a GPU compute platform** to work on the open-ended labs. To request a code for yourself and your students, please send an email to [NVDLI@nvidia.com](mailto: NVDLI@nvidia) with the subject line “DLI Teaching Kit AWS Access”. An email will follow with your code and instructions for giving access to your students. *Instructions on setting up your AWS environment can be found below.*
+**Don't have access to GPUs? The DLI Teaching Kit comes with codes worth up to $125 of Amazon Web Services (AWS) GPU compute credit for each student in your course, to provide a GPU compute platform**
 
-The use of GPUs for the Teaching Kit labs requires a CUDA supported operating system, C compiler, and a recent CUDA Toolkit. Basic instructions on how to download and install the CUDA Toolkit can be found below in the Environment setup. More details can be found in the NVIDIA documentation on how [download](https://developer.nvidia.com/cuda-downloads)and [install](http://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html) the CUDA Toolkit. Installation guides and the list of supported C compilers for [Windows](http://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html), [Linux](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html), and [OSX](http://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x/index.html) are also found in the [CUDA Toolkit Documentation Page](http://docs.nvidia.com/cuda/index.html).
+The use of GPUs for the Learning Kit labs requires a CUDA supported operating system, C compiler, and a recent CUDA Toolkit. Basic instructions on how to download and install the CUDA Toolkit can be found below in the Environment setup. More details can be found in the NVIDIA documentation on how [download](https://developer.nvidia.com/cuda-downloads)and [install](http://docs.nvidia.com/cuda/cuda-quick-start-guide/index.html) the CUDA Toolkit. Installation guides and the list of supported C compilers for [Windows](http://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html), [Linux](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html), and [OSX](http://docs.nvidia.com/cuda/cuda-installation-guide-mac-os-x/index.html) are also found in the [CUDA Toolkit Documentation Page](http://docs.nvidia.com/cuda/index.html).
 
 CUDA and the associated libraries should be installed prior to any deep learning specific tools.
 
@@ -42,7 +40,7 @@ CUDA and the associated libraries should be installed prior to any deep learning
 
 #### PyTorch and Torch computing frameworks
     
-The DLI Teaching Kit labs and example solutions are based on the [PyTorch](http://pytorch.org/) and [Torch](http://torch.ch) computing frameworks. Please refer to [Getting started with Torch](http://torch.ch/docs/getting-started.html) for instruction on Torch installation, examples and documentation.
+The DLI Learning Kit labs and example solutions are based on the [PyTorch](http://pytorch.org/) and [Torch](http://torch.ch) computing frameworks. Please refer to [Getting started with Torch](http://torch.ch/docs/getting-started.html) for instruction on Torch installation, examples and documentation.
 
 For Windows users, please refer to [Running Torch on Windows](https://github.com/torch/torch7/wiki/Windows#using-a-virtual-machine). At the time of writing this, PyTorch does not run on Windows, but there's an ongoing thread [here](https://github.com/pytorch/pytorch/issues/494).
 
@@ -99,8 +97,6 @@ The NVIDIA Deep Learning Institute (DLI) Teaching Kit includes access to free on
 The recommended DLI course (with certification) for students learning through the DLI Teaching Kit is **[Fundamentals of Deep Learning for Computer Vision](https://courses.nvidia.com/courses/course-v1:DLI+C-FX-01+V2/about)**.
 
 `Syllabus.pdf` suggests students take this full-day course upon near-completion of your university semester course. It also suggests shorter courses that can be used as labs throughout your university course.
-
-*To enable these or any other courses for your students, please send an email to NVDLI@nvidia.com with subject line “DLI Teaching Kit Online Course Access”. You will then receive information about how to give free access to your students.*
 
 Detailed descriptions of all available DLI courses can be found at [www.nvidia.com/dli](https://www.nvidia.com/dli).
 
